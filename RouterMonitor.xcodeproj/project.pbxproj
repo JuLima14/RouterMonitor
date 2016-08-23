@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37E5C6271D6A1BB5001C6A3F /* monitor.command in Resources */ = {isa = PBXBuildFile; fileRef = 37E5C6261D6A1BB5001C6A3F /* monitor.command */; };
 		37F77BE31D68CE3D00E57C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F77BE21D68CE3D00E57C7E /* AppDelegate.swift */; };
 		37F77BE51D68CE3D00E57C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F77BE41D68CE3D00E57C7E /* ViewController.swift */; };
 		37F77BE71D68CE3D00E57C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F77BE61D68CE3D00E57C7E /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37E5C6261D6A1BB5001C6A3F /* monitor.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = monitor.command; path = ../monitor.command; sourceTree = "<group>"; };
 		37F77BDF1D68CE3D00E57C7E /* RouterMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F77BE21D68CE3D00E57C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37F77BE41D68CE3D00E57C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		37F77BE11D68CE3D00E57C7E /* RouterMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				37E5C6261D6A1BB5001C6A3F /* monitor.command */,
 				37F77BE21D68CE3D00E57C7E /* AppDelegate.swift */,
 				37F77BE41D68CE3D00E57C7E /* ViewController.swift */,
 				37F77BE61D68CE3D00E57C7E /* Assets.xcassets */,
@@ -119,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E5C6271D6A1BB5001C6A3F /* monitor.command in Resources */,
 				37F77BE71D68CE3D00E57C7E /* Assets.xcassets in Resources */,
 				37F77BEA1D68CE3D00E57C7E /* Main.storyboard in Resources */,
 			);
@@ -275,6 +279,7 @@
 				37F77BF01D68CE3D00E57C7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
